@@ -1,17 +1,19 @@
 import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 
 public class TestJFrame extends JFrame {
     JPanel panel;
-
     public TestJFrame() {
-        super("TicTacToe Game");
+    super("TicTacToe Game");
 
-        panel = new JPanel();
-        setContentPane(panel);
-        
-        setLocation(1200, 50);
-        setSize(500, 600);
-        setVisible(true);
+    panel = new JPanel();
+    setContentPane(panel);
+
+    setLocation(1200, 50);
+    setSize(500, 600);
+    setVisible(true);
     }
 }
